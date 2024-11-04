@@ -1,0 +1,546 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 1440px;
+  height: 88px;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  gap: 32px;
+}
+.logo > img {
+  width: 65.4px;
+  height: 22.87px; 
+  position: relative;
+ } 
+.search-box {
+  display: flex;
+  padding: 16px;
+  width: 372px;
+  height: 56px;
+  color: #656565;
+  background-color: #f5f5f5;
+  padding: auto;
+  position: relative;
+}
+.search-box > img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 30%;
+  gap: 8px;
+}
+.search-box > input {
+  background-color: #f5f5f5;
+  padding-left: 28px;
+}
+.pages {
+  width: 369px;
+  height: 19px;
+}
+.pages > ul {
+  gap: 52px;
+  display: flex;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  width: 144px;
+  height: 32px;
+  gap: 24px;
+}
+.main {
+  width: 1440px;
+  height: 642px;
+  padding: 0 160px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: #FFFFFF;
+}
+.main > .text{
+  width: 714px;
+  height: 256px;
+}
+.heading > h2{
+  height: 29px;
+  font-weight: 600;
+  font-size: 25px;
+  color: #FFFFFF;
+  opacity: 0.4;
+  margin-bottom: 24px;
+}
+.iphonetext{
+  height: 72px;
+  font-size: 96px;
+  line-height: 72px;
+  letter-spacing: -1%;
+}
+.title{
+  font-weight: 100;
+}
+.pro{
+  font-weight: 600;
+}
+.text > p{
+  margin:24px 0;
+  height: 24px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #909090;
+}
+.text > button{
+  width: 191px;
+  height: 56px;
+  padding: 0 56px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.products{
+  width: 1440px;
+  height: 600px;
+  display: flex;
+}
+.left{
+  width: 720px;
+  height: 600px;
+}
+.playStation{
+  width: 720px;
+  height: 328px;
+  display: flex;
+  background-image: url('/PlayStation.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  align-items: center;
+}
+.content{
+  width: 338px;
+  height: 128px;
+}
+.content > h3{
+  width: 338px;
+  height: 40px;
+  font-size: 49px;
+  line-height: 40px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+.content > p{
+  width: 338px;
+  height: 72px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #909090;
+}
+.playStation > .content{
+  padding-left: 334px;
+}
+.left > .bottom{
+  display: flex;
+  width: 720px;
+  height: 272px;
+}
+.airPods{
+  background-image: url('/airpods.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 360px;
+  height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #EDEDED;
+  padding-left: 156px;
+  padding-right: 48px;
+}
+.airPods > div > h3{
+  font-size: 29px;
+  line-height: 40px;
+  font-weight: 300;
+}
+.airPods >div > h3 > span{
+  font-weight: 500;
+}
+.airPods > div > p{
+  width: 160px;
+  height: 48px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #909090;
+}
+.visionPro{
+  background-image: url('/image 36.png');
+  background-size: 136px 190px;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 360px;
+  height: 272px;
+  display: flex;
+  align-items: center;
+  background-color: #353535;
+  padding-left: 156px;
+  padding-right: 48px;
+  color: white;
+}
+.visionPro > div > h3{
+  font-size: 29px;
+  line-height: 40px;
+  font-weight: 300;
+}
+.visionPro > div{
+  width: 160px;
+  height: 144px;
+}
+.visionPro > div > h3 > span{
+    font-weight: 500;
+    height: 80px;
+}
+.visionPro > div > p{
+  color: #909090 ;
+  font-size: 14px;
+  line-height: 24px ;
+  height:72px;
+}
+.right{
+  width: 720px;
+  height: 600px;
+  background-color: #EDEDED;
+  background-image: url('/MacBook Pro 14.png');
+  background-repeat: no-repeat;
+  background-size: 292px 502px;
+  background-position: right center;
+  display: grid;
+  place-items: center;
+  padding-left: 56px;
+  padding-right: 264px;
+}
+.right .macbook{
+  width: 360px;
+  height: 272px;
+}
+.right h1{
+  width: 360px;
+  height: 112px;
+  padding-left: 10px;
+  margin-bottom: 16px;
+  line-height: 56px;
+  font-size: 64px;
+  font-weight: 100;
+}
+
+.right h1 > span{
+  font-weight: 500;
+}
+.macbook > p{
+  height: 72px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #909090;
+  margin-bottom: 16px;
+}
+.macbook > button{
+  height: 56px;
+  width: 191px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.browse{
+  display: grid;
+  place-items: center;
+  padding: 80px 160px;
+  background-color: #FAFAFA;
+}
+.top{
+  width: 1120px;
+  height: 32px;
+display: flex;
+justify-content: space-between;
+}
+.top > h3{
+  width: 239px;
+  height: 32px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.cards{
+  width: 1120px;
+  height: 128px;
+  display: flex;
+  margin-top: 32px;
+  justify-content: space-between;
+}
+.card{
+  width: 160px;
+  height: 128px;
+  background-color: #EDEDED;
+  display: grid;
+  place-items: center;
+  border-radius: 15px;
+}
+.card > p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.Selling{
+  width: 1440px;
+  height: 1056px;
+  padding: 56px 160px 56px 160px;
+}
+.Selling > ul{
+  width: 1120px;
+  height: 32px;
+  gap: 32px;
+  display: flex;
+  margin-bottom: 32px;
+}
+.Selling > ul > li{
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #8B8B8B;
+}
+.Selling > ul > li:first-child{
+  color: black;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness:2px ;
+}
+ .Selling > div{
+  width: 1220px;
+  height: 880px;
+ }
+
+.firstrow{
+width: 1120px;
+height: 432px;
+display: flex;
+justify-content: space-around;
+margin-bottom: 16px;
+}
+.items{
+ width: 268px;
+ height: 423px;
+ background-color:#F6F6F6;
+padding: 24px 16px;
+position: relative;
+text-align: center;
+border-radius: 9px;
+}
+.items > .device {
+ display: block;
+ margin: 0 auto;
+ padding-top: 16px;
+}
+.items > .bottom > .text{
+  margin-top: 16px;
+}
+.text > h3:first-child{
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.text > p:nth-child(2){
+  line-height: 24px;
+  font-size: 24px;
+  letter-spacing: 3px ;
+  font-weight: 600;
+  color: black;
+}
+.items button {
+  width: 188px;
+  height: 48px;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: medium;
+}
+.items button:hover {
+  background-color: #333;
+}
+.heart-icon {
+  width: 244px;
+  height: 32px;
+  font-size: 32px;
+  color: #ccc;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: right;
+}
+.heart-icon:hover {
+  color: #ff0000;
+}
+.secondrow{
+  width: 1120px;
+height: 432px;
+display: flex;
+justify-content: space-around;
+margin-bottom: 16px;
+}
+.ads{
+  width: 1440px;
+  height: 640px;
+  display: flex;
+}
+.advertisement{
+width: 360px;
+height: 640px;
+padding: 376px 32px 56px 32px;
+}
+.advertisement > div{
+  width: 296px;
+  height: 208px;
+}
+.advertisement > div > h3{
+  font-size: 33px;
+  line-height: 48px;
+  font-weight: 300;
+  width: 296px;
+  height: 48px;
+}
+.advertisement > div > p{
+  width: 296px;
+  height: 72px;
+  margin: 16px 0;
+  color: #909090;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.advertisement > div > button{
+  width: 191px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 48px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.first{
+  background-image: url("/Group 1.png");
+  background-repeat: no-repeat;
+}
+.second{ 
+ background-color:#F9F9F9;
+background-image: url("/image 64.png");
+background-repeat: no-repeat;
+}
+.third{
+  background-image: url("/image 41.png");
+  background-repeat: no-repeat;
+  background-color: #EAEAEA;
+}
+.fourth{
+  background-color: #2C2C2C;
+  background-image: url("/Macbook 1.png");
+  background-repeat: no-repeat;
+}
+
+.fourth h3{
+  color: #FFFFFF;
+} 
+.fourth > div > button{
+  border: 1px solid white;
+  color: white;
+}
+.discount{
+  padding: 80px 160px;
+}
+.discount > h2{
+  width: 248px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 32px;
+
+
+}
+.discounts{
+  display: flex;
+  justify-content: space-between;
+  width: 1120px;
+  height: 432px;
+}
+.banner{
+  width: 1440px;
+  height: 448px;
+}
+.footer{
+  width: 1440px; 
+  height: 504px;
+  padding: 104px 160px;
+  background-color: black;
+  color: #CFCFCF;
+  font-size: 14px;
+  line-height: 32px;
+}
+.center{
+  width: 1120px;
+  height: 256px;
+  display: flex;
+  margin-bottom:24px;
+}
+.center > div > p{
+  margin-top: 24px;
+  width: 384px;
+  height: 48px;
+  line-height: 170.5%;
+  font-weight: 500;
+}
+.center > div:first-child{
+  margin-right: 112px;
+}
+.center > div:nth-child(2){
+  display: flex;
+  justify-content: space-between;
+}
+.services,.assistance{
+width: 295.5px;
+height: 256px;
+}
+.services{
+  margin-right: 32px;
+}
+.services > li,.assistance > li{
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #CFCFCF;
+  margin-bottom: 16px;
+}
+.services > li > h2 , .assistance > li > h2{
+  font-size: 16px;
+  color: white;
+  line-height: 16px;
+  font-weight: 600;
+}
+.footicons{
+  display: flex;
+  width: 173px;
+  height: 16px;
+  justify-content: space-between;
+}
